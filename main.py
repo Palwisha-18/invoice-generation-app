@@ -1,9 +1,8 @@
 import glob
+from pathlib import Path
 
 import pandas as pd
-
 from fpdf import FPDF
-from pathlib import Path
 
 filepaths = glob.glob("invoices/*.xlsx")
 
